@@ -1,0 +1,149 @@
+body
+{
+    background-image: url(bg_img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#menubar 
+{
+    overflow: hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.barbtns
+{
+    padding-top: 3%;
+    justify-content: space-between;
+    display: flex;
+}
+
+h1.hi_title
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 10vmin;
+    font-weight: bold;
+    text-align: center;
+    margin: 10% 20% 0% 20%;
+}
+
+@keyframes textani
+{
+    0% {content: ""}    
+    2.5% {content: "n"}
+    5% {content: "nk"}
+    7.5% {content: "nkb"}
+    10% {content: "nkb-"}
+    12.5% {content: "nkb-d"}
+    15% {content: "nkb-de"}
+    17.5% {content: "nkb-dev"}
+    65% {content: "nkb-dev"}
+    70% {content: "nkb-de"}
+    75% {content: "nkb-d"}
+    80% {content: "nkb-"}
+    85% {content: "nkb"}
+    90% {content: "nk"}
+    95% {content: "n"}
+    100% {content: ""}
+}
+
+.nkbdev::before
+{
+    font-size: 20vmin;
+    content: "";
+    animation: textani infinite 5s;
+    margin: 0%;
+}
+
+@keyframes cursor-blink 
+{
+  0% 
+  {
+    opacity: 0;
+  }
+}
+
+.nkbdev::after
+{
+    content: "";
+    width: 7vmin;
+    height: 14vmin;
+    background: #ffffff;
+    display: inline-block;
+    animation: cursor-blink 1s steps(2) infinite;
+}
+
+p.bt
+{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+}
+
+.barbtns a
+{
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 10px 10px;
+} 
+
+.barbtns a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.logo
+{
+    float: left;
+    width: 75px;
+    display: block;
+}
+
+#socialmedia
+{
+    color: rgb(190, 190, 190);
+}
+
+.top_social
+{
+    font-size: 24px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+#socialicons
+{
+    justify-content: space-between;
+    display: flex;
+    margin: 1.5% 45% 0% 45%;
+}
+
+#products
+{
+    background-color: #2e0270;
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-title
+{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 48px;
+}
+
+.products-content
+{
+    
+}    
