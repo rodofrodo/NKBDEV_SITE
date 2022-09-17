@@ -144,7 +144,6 @@ p.bt
     text-align: center;
     color: white;
     padding-top: 25px;
-    padding-bottom: 25px;
     font-size: 48px;
 }
 
@@ -152,4 +151,7 @@ p.bt
 {
     color: white;
     text-align: center;
+    font-size: 21px;
+    background-color: rgb(78, 9, 124);
+    padding: 1px;
 }    
