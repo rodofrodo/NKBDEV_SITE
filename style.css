@@ -76,6 +76,7 @@ h1.hi_title
     content: "";
     width: 7vmin;
     height: 14vmin;
+    margin-left: 10px;
     background: #ffffff;
     display: inline-block;
     animation: cursor-blink 1s steps(2) infinite;
@@ -134,24 +135,47 @@ p.bt
 
 #products
 {
-    background-color: #2e0270;
+    background-color: #000;
     margin-top: 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.products-above
+{
+    color: #232323;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 50px;
+    letter-spacing: 15px;
 }
 
 .products-title
 {
     text-align: center;
     color: white;
-    padding-top: 25px;
     font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    margin-top: 0px;
 }
 
-#products-content
+#MakeRoot
 {
-    color: white;
+    font-family: 'Product Sans';
+}
+
+.MakeRoot-title
+{
+    font-family: Product Sans;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #005E15 0%, #003370 100%);
+    background-clip: text; 
     text-align: center;
-    font-size: 21px;
-    background-color: rgb(78, 9, 124);
-    padding: 1px;
-}    
+    margin-left: 750px;
+    margin-right: 750px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
