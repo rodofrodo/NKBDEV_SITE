@@ -5,6 +5,7 @@ html
 
 body
 {
+    background-color: black;
     background-image: url(bg_img.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -178,4 +179,34 @@ p.bt
     margin-right: 750px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.MakeRoot-caption
+{
+    color: rgb(192, 192, 192);
+    text-align: center;
+    font-size: 18px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+#archives
+{
+    background-color: #000;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gallery
+{
+    background-color: #000;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#about
+{
+    background-color: #000;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
