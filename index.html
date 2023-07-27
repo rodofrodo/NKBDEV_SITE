@@ -22,6 +22,10 @@
 				<a href="#about">About</a>
 			</div>
 		</div>
+		<!-- Allows to jump after refresh -->
+		<script>
+    		window.location = "#menubar";
+		</script>
 		<div id="maintext">
 			<h1 class="hi_title">Hi, we're called</h1>
 		</div>
@@ -33,17 +37,31 @@
 			<div id="socialicons">
 				<!-- target="_blank" is used for
 				opening link in a new tab -->
-				<a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Official Twitter"></a>
-				<a href="https://youtube.com/" target="_blank"><img src="youtube.png" alt="Official YouTube"></a>
-				<a href="https://github.com/" target="_blank"><img src="github.png" alt="Official GitHub"></a>
+				<a class="socialbtn" href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Official Twitter"></a>
+				<a class="socialbtn" href="https://youtube.com/" target="_blank"><img src="youtube.png" alt="Official YouTube"></a>
+				<a class="socialbtn" href="https://github.com/" target="_blank"><img src="github.png" alt="Official GitHub"></a>
 			</div>
 		</div>
 		<div id="products">
 			<p class="products-above">NKB-DEV OFFICIAL</p>
 			<p class="products-title">PRODUCTS</p>
-			<div id="MakeRoot">
-				<p class="MakeRoot-title">MakeRoot</p>
-				<p class="MakeRoot-caption">
+			<div id="PRODUCT_CAPT">
+				<p id="PROD_TITLE" class="MakeRoot-title">MakeRoot</p>
+				<p class="smallprod-caption">
+					MakeRoot is all about mathematical roots and calculating them
+					for your usage. 
+				</p>
+			</div>
+			<div id="PRODUCT_CAPT">
+				<p id="PROD_TITLE" class="ColorPick-title">ColorPick</p>
+				<p class="smallprod-caption">
+					MakeRoot is all about mathematical roots and calculating them
+					for your usage. 
+				</p>
+			</div>
+			<div id="PRODUCT_CAPT">
+				<p id="PROD_TITLE" class="LudoGame-title">LudoGame</p>
+				<p class="smallprod-caption">
 					MakeRoot is all about mathematical roots and calculating them
 					for your usage. 
 				</p>
@@ -60,6 +78,8 @@
 		<div id="about">
 			<p class="products-above">NKB-DEV OFFICIAL</p>
 			<p class="products-title">ABOUT</p>
+			<img class="nkbdevlogo" src="official_icon.png" alt="Official logo of Nkb-Dev">
+			<img class="nkbdevlogo-sub" src="official_text.png" alt="Subtitle of Nkb-Dev logo">
 		</div>
 	</body>
 </html>
