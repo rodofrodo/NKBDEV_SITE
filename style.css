@@ -107,13 +107,6 @@ p.bt
     color: black;
 }
 
-.logo
-{
-    float: left;
-    width: 75px;
-    display: block;
-}
-
 #socialmedia
 {
     color: rgb(190, 190, 190);
@@ -141,6 +134,12 @@ p.bt
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.socialbtn
+{
+    /*it will be something there*/
+    margin: 0px;
+}
+
 .products-above
 {
     color: #232323;
@@ -160,19 +159,17 @@ p.bt
     margin-top: 0px;
 }
 
-#MakeRoot
+#PRODUCT_CAPT
 {
     font-family: 'Product Sans';
 }
 
-.MakeRoot-title
+#PROD_TITLE
 {
-    font-family: Product Sans;
     font-size: 58px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: linear-gradient(90deg, #005E15 0%, #003370 100%);
     background-clip: text; 
     text-align: center;
     margin-left: 750px;
@@ -181,13 +178,28 @@ p.bt
     -webkit-text-fill-color: transparent;
 }
 
-.MakeRoot-caption
+.smallprod-caption
 {
     color: rgb(192, 192, 192);
     text-align: center;
     font-size: 18px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1.5px;
+}
+
+.MakeRoot-title
+{
+    background: linear-gradient(90deg, #005E15 0%, #003370 100%);
+}
+
+.ColorPick-title
+{
+    background: linear-gradient(90deg, #5E0000 0%, #4C0070 100%);
+}
+
+.LudoGame-title
+{
+    background: linear-gradient(90deg, #45005E 0%, #00705B 100%);
 }
 
 #archives
@@ -209,4 +221,31 @@ p.bt
     background-color: #000;
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.nkbdevlogo
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: auto;
+}
+
+.nkbdevlogo-sub
+{   
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    height: auto;
 }
