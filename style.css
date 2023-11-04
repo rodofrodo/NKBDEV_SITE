@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color: black;
+    background-color: #03000F;
     background-image: url(bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ h1.hi_title
 {
     color: #303030;
     font-family: Georgia;
-    font-size: 8vmin;
+    font-size: 6vmin;
     font-weight: bold;
     text-align: center;
     margin: 10% 20% 0% 20%;
@@ -58,7 +58,7 @@ h1.hi_title
 
 .nkbdev::before
 {
-    font-size: 20vmin;
+    font-size: 16vmin;
     content: "";
     animation: textani infinite 5s;
     margin: 0%;
@@ -99,7 +99,7 @@ p.bt
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.875vmin;
     font-family: Product Sans;
     font-weight: bold;
     padding: 10px 10px;
@@ -118,7 +118,7 @@ p.bt
 
 .top_social
 {
-    font-size: 24px;
+    font-size: 2.5vmin;
     font-family: "Segoe UI", Arial, sans-serif;
     margin: 0px;
     text-align: center;
@@ -131,36 +131,28 @@ p.bt
     margin: 1.5% 45% 0% 45%;
 }
 
-#products
-{
-    background-color: #000;
-    margin-top: 250px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .socialbtn
 {
     /*it will be something there*/
     margin: 0px;
 }
 
-.products-above
+.socialImg
 {
-    color: #232323;
-    text-align: center;
-    font-size: 14px;
-    padding-top: 50px;
-    letter-spacing: 15px;
+    width: 3.35vmin;
+    height: 3.35vmin;
 }
 
 .products-title
 {
-    text-align: center;
+    text-align: left;
     color: white;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    letter-spacing: 15px;
+    letter-spacing: 3px;
     margin-top: 0px;
+    padding-left: 15%;
+    padding-top: 5%
 }
 
 #PRODUCT_CAPT
@@ -206,23 +198,30 @@ p.bt
     background: linear-gradient(90deg, #45005E 0%, #00705B 100%);
 }
 
+#products
+{
+    background-color: #03000F;
+    margin-top: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #archives
 {
-    background-color: #000;
+    background-color: #03000F;
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #gallery
 {
-    background-color: #000;
+    background-color: #03000F;
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #about
 {
-    background-color: #000;
+    background-color: #03000F;
     margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 0px;
@@ -253,3 +252,4 @@ p.bt
     width: 12%;
     height: auto;
 }
+
