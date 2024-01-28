@@ -155,11 +155,6 @@ p.bt
     padding-top: 5%
 }
 
-#PRODUCT_CAPT
-{
-    font-family: 'Product Sans';
-}
-
 #PROD_TITLE
 {
     font-size: 58px;
@@ -174,6 +169,36 @@ p.bt
     -webkit-text-fill-color: transparent;
 }
 
+.trium_the
+{
+    color: #858585;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.trium_TEXT
+{
+    color: white;
+    text-align: center;
+    font-size: 106px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+#trium_sub.smallprod-caption
+{
+    margin: 0;
+    padding: 0;
+    color: #323336;
+    letter-spacing: 12px;
+}
+
 .smallprod-caption
 {
     color: rgb(192, 192, 192);
@@ -181,21 +206,6 @@ p.bt
     font-size: 18px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 1.5px;
-}
-
-.MakeRoot-title
-{
-    background: linear-gradient(90deg, #005E15 0%, #003370 100%);
-}
-
-.ColorPick-title
-{
-    background: linear-gradient(90deg, #5E0000 0%, #4C0070 100%);
-}
-
-.LudoGame-title
-{
-    background: linear-gradient(90deg, #45005E 0%, #00705B 100%);
 }
 
 #products
