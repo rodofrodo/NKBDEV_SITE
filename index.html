@@ -1,61 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Nkb-Dev</title>
-		<meta charset="UTF-8">
-		<meta name="description" 
-		    content="This is the offical site of Nkb-Dev Company which
-		            creates software for personal usage. Every app is
-		            provided from professional team.">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
-		<meta name="keywords" content="nkb, nkbdev, nkb-dev">
-		<meta name="author" content="Nkb-Dev Company">
-        <link rel="stylesheet" href="style.css">
+<html lang="en" dir="ltr">
+    <head>
+        <title>Nkb-Dev</title>
+        <meta charset="UTF-8">
+		<meta name="description" content="Nkb-Dev Official Site">
+        <meta name="keywords" content="nkb, nkbdev, nkb-dev">
+        <meta name="author" content="Nkb-Dev">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="favicon.png">
-		<script defer src="app.js"></script>
-	</head>
-	<body>
-		<div id="menubar">
-			<div class="barbtns">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <div id="menubar">
+            <!-- nothing here :) -->
+        </div>
+        <div class="main_part_img">
+            <div class="barbtns">
 				<a href="#menubar">HOME</a>
 				<a href="#products">PRODUCTS</a>
 				<a href="#archives">ARCHIVES</a>
 				<a href="#gallery">GALLERY</a>
 				<a href="#about">ABOUT</a>
 			</div>
-		</div>
-		<!-- Allows to jump after refresh -->
-		<script>
-    		window.location = "#menubar";
-		</script>
-		<div id="maintext">
-			<h1 class="hi_title"><i>Hi, we're called</i></h1>
-		</div>
-		<div id="blinking_text">
-			<p class="bt"><span class="nkbdev"></span></p>
-		</div>
-		<div id="socialmedia">
-			<p class="top_social"><b><i>And those are our URLs</b></i></p>
-			<div id="socialicons">
-				<!-- target="_blank" is used for
-				opening link in a new tab -->
-				<a class="socialbtn" href="https://x.com/" target="_blank"><img class="socialImg" src="twitter.png" alt="Official X"></a>
-				<a class="socialbtn" href="https://youtube.com/" target="_blank"><img class="socialImg" src="youtube.png" alt="Official YouTube"></a>
-				<a class="socialbtn" href="https://github.com/" target="_blank"><img class="socialImg" src="github.png" alt="Official GitHub"></a>
-			</div>
-		</div>
-		<div id="products">
+            <div id="maintext">
+                <h1 class="hi_title"><i>Hi, we're called</i></h1>
+            </div>
+            <div id="blinking_text">
+                <p class="bt"><span class="nkbdev"></span></p>
+            </div>
+            <!---->
+            <div id="socialmedia">
+                <p class="top_social"><b><i>And those are our URLs</b></i></p>
+                <div id="socialicons">
+                    <!-- target="_blank" is used for
+                    opening link in a new tab -->
+                    <a class="socialbtn" href="https://x.com/" target="_blank"><img class="socialImg" src="twitter.png" alt="Official X"></a>
+                    <a class="socialbtn" href="https://youtube.com/" target="_blank"><img class="socialImg" src="youtube.png" alt="Official YouTube"></a>
+                    <a class="socialbtn" href="https://github.com/" target="_blank"><img class="socialImg" src="github.png" alt="Official GitHub"></a>
+                </div>
+            </div>
+            <p class="endtext">All rights reserved /<b>2024</b>/</p>
+        </div>
+        <div id="products">
 			<p class="products-title">Products</p>
-			<!-- THE TRIUMVIRATE -->
-			<p class="trium_the">THE</p>
-			<p class="trium_TEXT">TRIUMVIRATE</p>
-			<p id="trium_sub" class="smallprod-caption">
-				MAJOR APPLICATIONS
-			</p>
+            <img class="triumvirate" src="triumvirate.png">
+            <div class="ludogame">
+                <img class="ludogame_img" src="ludogame.png">
+            </div>
+            <div class="makeroot">
+                <img class="makeroot_img" src="makeroot.png">
+            </div>
+            <div class="colorpick">
+                <img class="colorpick_img" src="colorpick.png">
+            </div>
 		</div>	
-		<div id="archives">
+        <div id="archives">
 			<p class="products-title">Archives</p>
 		</div>
 		<div id="gallery">
@@ -63,8 +62,7 @@
 		</div>
 		<div id="about">
 			<p class="products-title">About</p>
-			<img class="nkbdevlogo" src="official_icon.png" alt="Official logo of Nkb-Dev">
-			<img class="nkbdevlogo-sub" src="official_text.png" alt="Subtitle of Nkb-Dev logo">
 		</div>
-	</body>
+        <script src="app.js"></script>
+    </body>
 </html>
