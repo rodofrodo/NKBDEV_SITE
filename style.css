@@ -12,11 +12,6 @@ body
 
 .main_part_img
 {
-    /*
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    */
     position: relative;
     width: 100%;
     height: 100vh;
@@ -62,8 +57,18 @@ h1.hi_title
     font-size: 6vmin;
     font-weight: bold;
     text-align: center;
-    margin: 10% 20% 0% 20%;
+    margin-top: 175px;
 }
+
+#socialicons
+{
+    justify-content: space-between;
+    display: flex;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 400px;
+}
+
 
 @media screen and (max-width: 750px) { /* Adjust the max-width as needed */
     .hamburger 
@@ -74,6 +79,7 @@ h1.hi_title
     {
         display: none;
         flex-direction: column;
+        row-gap: 30px;
         align-items: center;
         width: 100vw;
         height: 100vh;
@@ -96,13 +102,7 @@ h1.hi_title
     }
     #socialicons 
     {
-        flex-direction: column;
-        align-items: center;
-    }
-    .main_part_img 
-    {
-        min-height: 40vh;
-        aspect-ratio: unset;
+        width: 60%;
     }
 }
 
@@ -188,7 +188,7 @@ p.bt
 #socialmedia
 {
     color: rgb(66, 66, 66);
-    position:  absolute;
+    position: absolute;
     top: 600px;
     left: 0;
     right: 0;
@@ -200,15 +200,6 @@ p.bt
     font-family: "Segoe UI", Arial, sans-serif;
     margin: 0px;
     text-align: center;
-}
-
-#socialicons
-{
-    justify-content: space-between;
-    display: flex;
-    margin: 20px auto 0 auto;
-    width: 100%;
-    max-width: 400px;
 }
 
 .socialbtn
@@ -225,11 +216,14 @@ p.bt
 
 .endtext
 {
-    margin-top: 40vmin;
+    position: absolute;
     font-family: Arial;
     font-size: 11px;
     text-align: center;
     margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #products, #archives, #gallery, #about
