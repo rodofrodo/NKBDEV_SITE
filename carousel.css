@@ -1,0 +1,63 @@
+.carousel-container 
+{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel 
+{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding: 40px 0;
+}
+
+.carousel img 
+{
+    width: 70%;
+    margin: 0 10px;
+    flex-shrink: 0;
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.3;
+    transform: scale(0.8);
+    border-radius: 10px;
+}
+
+.carousel img.active 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.carousel img.side-1,
+.carousel img.side-2 
+{
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+.buttons 
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.buttons button 
+{
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px;
+}
