@@ -1,0 +1,97 @@
+#launcher
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.launcher_box
+{
+    display: flex;
+    background-color: black;
+    padding: 50px 75px;
+    border-radius: 30px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.launcher_box_text
+{
+    font-family: 'Inter', sans-serif;
+    z-index: 1;
+}
+
+.download_launch_btn
+{
+    background-color: white;
+    color: black;
+    padding: 10px 45px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@property --angle
+{
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.download_launch_btn::after, .download_launch_btn::before
+{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #00FFFF, #5CA3E0, #BD42C0, #FF00AA, #BD42C0, #5CA3E0, #00FFFF);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 3px;
+    border-radius: 100px;
+    animation: 3s spin infinite linear;
+}
+
+.download_launch_btn:hover::after
+{
+    filter: blur(10px);
+    opacity: .5;
+}
+
+@keyframes spin
+{
+    from
+    {
+        --angle: 0deg;
+    }
+    to
+    {
+        --angle: 360deg;
+    }
+}
+
+.launcher_img
+{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.launcher_box_text.h1
+{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.launcher_box_text.p
+{
+    font-size: 18px;
+    font-weight: 500;
+}
