@@ -8,7 +8,15 @@
         <meta name="author" content="Nkb-Dev">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="favicon.png">
+        <!-- CSS files -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about_style.css">
+        <link rel="stylesheet" href="launcher.css">
+        <link rel="stylesheet" href="carousel.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>  
         <div id="menubar">
@@ -43,6 +51,36 @@
             </div>
             <p class="endtext">All rights reserved /<b>2025</b>/</p>
         </div>
+        <div id="launcher">
+            <div class="launcher_box">
+                <img class="launcher_img" src="official_icon.png">
+                <div class="launcher_box_text">
+                    <h1>Want to jump straight<br>into our apps?</h1>
+                    <p>Download the launcher now!
+                    It's free,<br>and you can always
+                    uninstall it.</p>
+                    <div>
+                        <p class="download_launch_btn">Download</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- xd -->
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/JMSDF_Sailors_Summer_Dress_Uniform.jpg/1024px-JMSDF_Sailors_Summer_Dress_Uniform.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/DANA_2004_ubt.jpeg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/STS-124_Columbus_and_Garan.jpg/1024px-STS-124_Columbus_and_Garan.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/JMSDF_Sailors_Summer_Dress_Uniform.jpg/1024px-JMSDF_Sailors_Summer_Dress_Uniform.jpg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/DANA_2004_ubt.jpeg">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/STS-124_Columbus_and_Garan.jpg/1024px-STS-124_Columbus_and_Garan.jpg">        
+            </div>
+            <div class="buttons">
+                <button class="prev-btn" id="prev">&#9664;</button>
+                <button class="next-btn" id="next">&#9654;</button>
+            </div>
+        </div>
+        <!---->
         <div id="products">
 			<p class="products-title">Products</p>
             <img class="triumvirate" src="triumvirate.png">
@@ -64,7 +102,12 @@
 		</div>
 		<div id="about">
 			<p class="products-title">About</p>
+            <div class="about_text">
+                <img class="about_img" src="official_icon.png">
+                <img class="about_sub" src="official_text.png">
+            </div>
 		</div>
         <script src="app.js"></script>
+        <script src="carousel.js"></script>
     </body>
 </html>
