@@ -241,7 +241,8 @@ p.bt
     letter-spacing: 3px;
     margin-top: 15px;
     padding-left: 15%;
-    padding-top: 5%
+    padding-top: 5%;
+    display: block;
 }
 
 .triumvirate
