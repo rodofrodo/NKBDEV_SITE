@@ -1,6 +1,6 @@
 const carousel = document.getElementById("carousel");
 const images = Array.from(carousel.querySelectorAll("img"));
-let currentIndex = 2; // Start with 3rd image in center
+let currentIndex = 1; // Start with 3rd image in center
 
 function updateCarousel() {
     const imageWidth = images[0].offsetWidth + 20; // 20 = margin
